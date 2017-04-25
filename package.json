@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [cordova-plugin-screen-orientation (v2.0.0)](https://github.com/apache/cordova-plugin-screen-orientation#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cordova-plugin-screen-orientation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cordova-plugin-screen-orientation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cordova-plugin-screen-orientation.svg)](https://travis-ci.org/npmtest/node-npmtest-cordova-plugin-screen-orientation)",
+    "description": "#### basic test coverage for  [cordova-plugin-screen-orientation (v2.0.0)](https://github.com/apache/cordova-plugin-screen-orientation#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cordova-plugin-screen-orientation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cordova-plugin-screen-orientation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cordova-plugin-screen-orientation.svg)](https://travis-ci.org/npmtest/node-npmtest-cordova-plugin-screen-orientation)",
     "devDependencies": {
         "cordova-plugin-screen-orientation": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

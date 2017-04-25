@@ -1,6 +1,6 @@
 # npmtest-cordova-plugin-screen-orientation
 
-#### test coverage for  [cordova-plugin-screen-orientation (v2.0.0)](https://github.com/apache/cordova-plugin-screen-orientation#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cordova-plugin-screen-orientation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cordova-plugin-screen-orientation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cordova-plugin-screen-orientation.svg)](https://travis-ci.org/npmtest/node-npmtest-cordova-plugin-screen-orientation)
+#### basic test coverage for  [cordova-plugin-screen-orientation (v2.0.0)](https://github.com/apache/cordova-plugin-screen-orientation#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cordova-plugin-screen-orientation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cordova-plugin-screen-orientation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cordova-plugin-screen-orientation.svg)](https://travis-ci.org/npmtest/node-npmtest-cordova-plugin-screen-orientation)
 
 #### Adds Screen Orientation API lock and unlock functions to the global screen object in android, iOS, WP8, W8.1, and BB10.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cordova-plugin-screen-orientation/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cordova-plugin-screen-orientation/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cordova-plugin-screen-orientation/build/coverage.html/index.html)
 
@@ -110,7 +110,8 @@
         "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint demo/www",
         "test": "npm run jshint"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
